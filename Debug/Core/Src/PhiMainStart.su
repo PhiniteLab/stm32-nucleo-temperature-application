@@ -1,0 +1,18 @@
+cmath:338:3:constexpr float std::log(float)	16	static
+measurement.hpp:42:2:measurement_temperature_c::measurement_temperature_c()	16	static
+measurement.hpp:63:7:void measurement_temperature_c::read_analog_value_via_thermistor(ADC_HandleTypeDef*, uint32_t)	64	static
+measurement.hpp:94:7:void measurement_temperature_c::read_temp_via_tem36(ADC_HandleTypeDef*, uint32_t)	56	static
+FastKalmanFilter.hpp:57:2:fast_kalman_filter_t::fast_kalman_filter_t(double, double, double, double, double, double)	64	static
+FastKalmanFilter.hpp:77:9:double fast_kalman_filter_t::get_tmp36_estimation(double, double)	40	static
+FastKalmanFilter.hpp:105:9:double fast_kalman_filter_t::get_thermistor_estimation(double, double)	40	static
+PhiMainStart.cpp:67:5:int main()	72	static
+PhiMainStart.cpp:146:6:void SystemClock_Config()	216	static
+PhiMainStart.cpp:198:13:void MX_ADC1_Init()	24	static
+PhiMainStart.cpp:245:13:void MX_UART4_Init()	8	static
+PhiMainStart.cpp:278:13:void MX_USART3_UART_Init()	8	static
+PhiMainStart.cpp:309:13:void MX_DMA_Init()	16	static
+PhiMainStart.cpp:329:13:void MX_GPIO_Init()	56	static
+PhiMainStart.cpp:383:6:void Error_Handler()	4	static,ignoring_inline_asm
+cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = int; _Up = int]	24	static
+PhiMainStart.cpp:390:1:void __static_initialization_and_destruction_0(int, int)	16	static
+PhiMainStart.cpp:390:1:cpp)	8	static
