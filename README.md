@@ -75,7 +75,9 @@ And the real setup is shown below:
 
 ![Setup](images/photo.jpeg)
 
-And result can be seen in below with using C# SerialPlotter Application using UART
+
+
+And result can be seen in below with using C# [PhiSerialPlotter](https://github.com/PhiniteLab/phi-serial-plotter "PhiSerialPlotter") Application using UART
 
 ![Result1](images/temp1.png)
 
