@@ -1,32 +1,13 @@
-# Prerequisites
-*.d
+/.metadata/
+/.jxbrowser-data/
+/RemoteSystemsTempFiles/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+**/Debug/*
+!*/Debug/*.out
+!*Debug/*.hex
+!*Debug/*.lib
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+**/Release/*
+!*/Release/*.out
+!*Release/*.hex
+!*Release/*.lib
